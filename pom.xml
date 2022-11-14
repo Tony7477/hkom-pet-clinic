@@ -14,7 +14,7 @@
 	</parent>
 	<groupId>hkom.springframework</groupId>
 	<artifactId>hkom-pet-clinic</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>hkom-pet-clinic</name>
 	<description>hkom-pet-clinic</description>
 	<properties>
@@ -40,7 +40,7 @@
 	<developerConnection>
 		scm:git:git@github.com:Tony7477/hkom-pet-clinic.git
 	</developerConnection>
-  <tag>hkom-pet-clinic-0.0.1</tag>
+  <tag>HEAD</tag>
   </scm>
 
 </project>
