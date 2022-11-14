@@ -1,4 +1,4 @@
-package hkom.springframework.hkompetclinic;
+package hkompetclinic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
