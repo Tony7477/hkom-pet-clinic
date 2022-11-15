@@ -1,6 +1,6 @@
 package hkom.springframework.model;
 
-public class PetType {
+public class PetType extends BaseEnitity{
     private String name;
 
     public String getName() {

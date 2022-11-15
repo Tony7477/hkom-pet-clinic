@@ -3,7 +3,7 @@ package hkom.springframework.model;
 import java.time.LocalDate;
 import java.util.LinkedHashSet;
 
-public class Pet {
+public class Pet extends BaseEnitity{
     private PetType petType;
     private Owner owner;
     private LocalDate birthDate;
