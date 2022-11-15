@@ -1,4 +1,4 @@
-package hkom.springframework.hkompetclinic.model;
+package hkom.springframework.model;
 
 import java.time.LocalDate;
 import java.util.LinkedHashSet;

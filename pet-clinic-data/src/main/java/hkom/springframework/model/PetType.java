@@ -1,4 +1,4 @@
-package hkom.springframework.hkompetclinic.model;
+package hkom.springframework.model;
 
 public class PetType {
     private String name;

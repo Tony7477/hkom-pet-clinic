@@ -1,4 +1,4 @@
-package hkom.springframework.hkompetclinic.model;
+package hkom.springframework.model;
 
 public class Person {
     private String firstName;
