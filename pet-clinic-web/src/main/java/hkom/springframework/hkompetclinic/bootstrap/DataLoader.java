@@ -1,11 +1,9 @@
 package hkom.springframework.hkompetclinic.bootstrap;
 
-import hkom.springframework.model.Owner;
-import hkom.springframework.model.Vet;
-import hkom.springframework.services.OwnerService;
-import hkom.springframework.services.VetService;
-import hkom.springframework.services.map.OwnerServiceMap;
-import hkom.springframework.services.map.VetServiceMap;
+import hkom.springframework.hkompetclinic.model.Owner;
+import hkom.springframework.hkompetclinic.model.Vet;
+import hkom.springframework.hkompetclinic.services.OwnerService;
+import hkom.springframework.hkompetclinic.services.VetService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -29,11 +27,10 @@ public class DataLoader implements CommandLineRunner {
         System.out.println("Loaded the vets");
     }
 
-    public DataLoader() {
-        ownerService=  new OwnerServiceMap();
-        vetService=new VetServiceMap();
-
-
-
+    public DataLoader(OwnerService ownerService, VetService vetService) {
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
+
+
 }

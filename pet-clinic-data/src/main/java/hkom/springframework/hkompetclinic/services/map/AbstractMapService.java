@@ -1,4 +1,4 @@
-package hkom.springframework.services.map;
+package hkom.springframework.hkompetclinic.services.map;
 
 import java.util.HashMap;
 import java.util.HashSet;

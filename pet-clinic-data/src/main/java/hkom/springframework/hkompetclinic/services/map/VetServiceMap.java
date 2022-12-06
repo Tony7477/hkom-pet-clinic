@@ -1,11 +1,11 @@
-package hkom.springframework.services.map;
+package hkom.springframework.hkompetclinic.services.map;
 
-import hkom.springframework.model.Vet;
-import hkom.springframework.model.Vet;
-import hkom.springframework.services.CrudService;
-import hkom.springframework.services.VetService;
+import hkom.springframework.hkompetclinic.model.Vet;
+import hkom.springframework.hkompetclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
+@Service
 public class VetServiceMap extends AbstractMapService<Vet,Long> implements VetService {
     @Override
     public Set<Vet> findAll() {

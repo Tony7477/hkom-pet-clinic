@@ -1,4 +1,4 @@
-package hkom.springframework.model;
+package hkom.springframework.hkompetclinic.model;
 
 import java.io.Serializable;
 

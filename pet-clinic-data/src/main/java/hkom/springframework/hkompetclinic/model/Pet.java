@@ -1,7 +1,6 @@
-package hkom.springframework.model;
+package hkom.springframework.hkompetclinic.model;
 
 import java.time.LocalDate;
-import java.util.LinkedHashSet;
 
 public class Pet extends BaseEnitity{
     private PetType petType;

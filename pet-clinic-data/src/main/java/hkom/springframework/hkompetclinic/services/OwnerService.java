@@ -1,8 +1,6 @@
-package hkom.springframework.services;
+package hkom.springframework.hkompetclinic.services;
 
-import hkom.springframework.model.Owner;
-
-import java.util.Set;
+import hkom.springframework.hkompetclinic.model.Owner;
 
 public interface OwnerService extends CrudService<Owner,Long> {
     Owner findByLastName(String lastname);

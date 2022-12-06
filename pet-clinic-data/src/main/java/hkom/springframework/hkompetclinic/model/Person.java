@@ -1,4 +1,4 @@
-package hkom.springframework.model;
+package hkom.springframework.hkompetclinic.model;
 
 public class Person extends BaseEnitity{
     private String firstName;

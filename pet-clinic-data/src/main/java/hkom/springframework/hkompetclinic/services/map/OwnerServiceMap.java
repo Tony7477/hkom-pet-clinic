@@ -1,12 +1,12 @@
-package hkom.springframework.services.map;
+package hkom.springframework.hkompetclinic.services.map;
 
-import hkom.springframework.model.Owner;
-import hkom.springframework.services.CrudService;
-import hkom.springframework.services.OwnerService;
+import hkom.springframework.hkompetclinic.services.OwnerService;
+import hkom.springframework.hkompetclinic.model.Owner;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
-
-public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements OwnerService{
+@Service
+public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements OwnerService {
     @Override
     public Set<Owner> findAll() {
         return super.findAll();

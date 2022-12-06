@@ -1,4 +1,4 @@
-package hkom.springframework.services;
+package hkom.springframework.hkompetclinic.services;
 
 import java.util.Set;
 
